@@ -6,8 +6,8 @@ added tests in pytest
 
 ## requirements
 
-python >= 3.6
-pytest
+- python >= 3.6
+- pytest
 
 to run tests just: 
 
