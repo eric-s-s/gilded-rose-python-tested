@@ -9,3 +9,10 @@ added tests in pytest
 python >= 3.6
 pytest
 
+to run tests just: 
+
+```
+$ pytest
+```
+from the top directory
+
