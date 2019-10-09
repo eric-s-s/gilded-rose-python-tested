@@ -1,4 +1,6 @@
 .idea
 __pycache__
 .coverage
-cover
+venv
+.pytest_cache
+*.pyc

@@ -187,10 +187,4 @@ def test_backstage_pass_caps_at_fifty():
                                                expected_quality)
 
 
-@pytest.mark.xfail(reason="Reasons!!!")
-def test_conjured_items_decrease_in_quality_twice_as_fast():
-    sell_in = 2
-    quality = 10
-    item = Item(MANA_CAKE, sell_in, quality)
-    expected_item = Item("fool", sell_in - 1, quality - 2)
-    do_one_item_test(item, expected_item)
+# def test_conjured_items_decrease_in_quality_twice_as_fast():
