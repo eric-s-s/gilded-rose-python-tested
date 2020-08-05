@@ -10,10 +10,17 @@ added tests in pytest
 - pytest
 - black
 
+`pip install -r requirements.txt`
+
 to run tests just: 
 
 ```
 $ pytest
 ```
 from the top directory
+
+for Test, Commit, Revert:
+```bash
+$ ./tcr.sh My super cool commit message
+```
 
