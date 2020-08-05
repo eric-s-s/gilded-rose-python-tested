@@ -6,4 +6,3 @@ class Item:
 
     def __repr__(self):
         return f"Item(name={self.name}, sell_in={self.sell_in}, quality={self.quality})"
-

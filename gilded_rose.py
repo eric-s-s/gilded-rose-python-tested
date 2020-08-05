@@ -9,8 +9,10 @@ class GildedRose(object):
 
     def update_quality(self):
         for item in self.items:
-            if (not item.name == "Aged Brie" and
-                    not item.name == "Backstage passes to a TAFKAL80ETC concert"):
+            if (
+                not item.name == "Aged Brie"
+                and not item.name == "Backstage passes to a TAFKAL80ETC concert"
+            ):
                 if item.quality > 0:
                     if not item.name == "Sulfuras, Hand of Ragnaros":
                         item.quality = item.quality - 1

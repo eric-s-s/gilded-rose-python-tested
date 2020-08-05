@@ -8,6 +8,7 @@ added tests in pytest
 
 - python >= 3.6
 - pytest
+- black
 
 to run tests just: 
 
