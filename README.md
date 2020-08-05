@@ -10,7 +10,10 @@ added tests in pytest
 - pytest
 - black
 
-`pip install -r requirements.txt`
+start your virtual environment and then,
+```
+$ pip install -r requirements.txt
+```
 
 to run tests just: 
 
